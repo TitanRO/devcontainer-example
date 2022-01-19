@@ -38,7 +38,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
     // This travis.sh script initializes the mysql ragnarok database.
-	"postCreateCommand": "tools/ci/travis.sh importdb ragnarok ragnarok ragnarok 127.0.0.1",
+	"postCreateCommand": "tools/ci/sql.sh",
 
 	// Use 'postStartCommand' to run commands when the container is started.
 	//"postStartCommand": "",
